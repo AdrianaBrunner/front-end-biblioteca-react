@@ -1,0 +1,32 @@
+.lista {
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+.lista > span:first-of-type {
+    font-weight: 800;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-decoration: underline wavy purple;
+}
+
+.lista div {
+    padding: 0.5rem;
+}
+
+.lista span input {
+    padding: 1rem;
+}
+
+.lista input {
+    border-radius: 50px;
+    border: none;
+    height: 2rem;
+    padding: 1rem;
+    outline: none;
+    font-size: 1rem;
+    width: 15rem;
+}

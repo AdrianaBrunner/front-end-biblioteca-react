@@ -1,0 +1,50 @@
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.table span {
+  font-weight: 800;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-decoration: underline wavy purple;
+}
+td {
+  text-align: center;
+  width: 7rem;
+  gap: 2rem;
+}
+
+thead td {
+  font-weight: 700;
+}
+
+button {
+  width: 6rem;
+  background-color: rgb(189, 82, 238);
+  border: none;
+  border-radius: 10px;
+  height: 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+button:hover {
+  color: rgb(189, 82, 238);
+  background-color: white;
+}
+
+table a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+}
+table {
+  border: 2px dashed purple;
+  padding: 1rem;
+}
+
+table #titulo {
+  width: 20rem;
+}
